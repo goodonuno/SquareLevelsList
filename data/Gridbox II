@@ -6,7 +6,7 @@
     "creators": ["TesseractYT"],
     "verifier": "TesseractYT",
     "verification": "https://youtube.com/watch?v=BDs0jbLsntM&si=FZGMa8fv1w_xLHbY",
-    "percentToQualify": "68",
+    "percentToQualify": 68,
     "password": "Free To Copy",
     "records": [
             "user": "4point5",
