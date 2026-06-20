@@ -1,27 +1,37 @@
 [
     {
         "role": "owner",
-        "name": "TesseractYT AsherZ",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "name": "TesseractYT",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
+        "role": "owner",
+        "name": "VeintiAsherZ",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
         "role": "admin",
         "name": "Vinyl",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
+        "role": "admin",
+        "name": "4point5",
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
         "role": "helper",
         "name": "List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
         "role": "trial",
         "name": "Trial List Helper",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     },
     {
         "role": "dev",
         "name": "List Coder",
-        "link": "https://www.youtube.com/@Prometheus_Alt"
+        "link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     }
 ]
