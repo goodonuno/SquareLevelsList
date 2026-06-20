@@ -1,0 +1,18 @@
+{
+    "id": 135222356,
+    "name": "the on3 and the K1NG",
+    "author": "AsherZ",
+    "creators": ["AsherZ", "TesseractYT"],
+    "verifier": "TesseractYT",
+    "verification": "https://youtube.com/watch?v=8J_kr5nslqI&si=1NYw6wLZu3X6xMqm",
+    "percentToQualify": 56,
+    "password": "Free To Copy"
+    "records": [
+        {
+            "user": "4point5",
+            "link": "none",
+            "percent": 100,
+            "hz": 360
+        }
+    ]
+}
