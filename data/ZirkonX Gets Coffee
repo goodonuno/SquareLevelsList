@@ -1,0 +1,18 @@
+{
+    "id": 137038322,
+    "name": "ZirkonX Gets Coffee",
+    "author": "TesseractYT",
+    "creators": ["TesseractYT"],
+    "verifier": "TesseractYT",
+    "verification": "https://www.youtube.com/watch?v=wjz1jgfOM9c",
+    "percentToQualify": "79",
+    "password": "Free To Copy",
+    "records": [
+{
+            "user": "IgnacusYT",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
