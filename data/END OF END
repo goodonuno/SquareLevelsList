@@ -36,7 +36,13 @@
             "user": "HelloItsMee",
             "link": "none",
             "percent": 100,
-            "hz":360
+            "hz":120
+        },
+        {
+            "user": "PolandMonster",
+            "link": "https://www.youtube.com/watch?v=aCrlBTLZ_bg",
+            "percent": 78,
+            "hz":60
         }
     ]
 }
