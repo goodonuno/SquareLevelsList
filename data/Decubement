@@ -13,6 +13,12 @@
             "link": "none",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Dullie",
+            "link": "none",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
