@@ -8,5 +8,17 @@
     "percentToQualify": "29",
     "password": "Free To Copy",
     "records": [
+         {
+            "user": "HelloItsMee",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "AsherZ",
+            "link": "",
+            "percent": 37,
+            "hz": 60
+        }
     ]
 }
