@@ -15,5 +15,11 @@
             "hz": 60
         }
 
+        {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=mXLYFoU3TdI",
+            "percent": 100,
+            "hz": 360
+        }
     ]
 }
