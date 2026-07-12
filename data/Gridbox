@@ -1,0 +1,36 @@
+{
+    "id": 134115410,
+    "name": "Gridbox",
+    "author": "TesseractYT",
+    "creators": ["TesseractYT"],
+    "verifier": "TesseractYT",
+    "verification": "https://www.youtube.com/watch?v=4k0s-OymdpE",
+    "percentToQualify": "0",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "BartSimpsonGaming",
+            "link": "https://youtu.be/i3oBNLgrdRY",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Veinticomma",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "4point5",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "IgnacusYT",
+            "link": "",
+            "percent": 100,
+            "hz": 120
+        },
+    ]
+}
