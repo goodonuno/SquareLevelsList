@@ -1,0 +1,18 @@
+{
+    "id": 145029447,
+    "name": "Noughts And Crosses",
+    "author": "4point5",
+    "creators": ["TesseractYT"],
+    "verifier": "4point5",
+    "verification": "https://www.youtube.com/watch?v=MspovEd4CZo",
+    "percentToQualify": 69,
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "HelloItsMee",
+            "link": "",
+            "percent": 94,
+            "hz": 60
+        }
+    ]
+}
