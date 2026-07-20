@@ -1,19 +1,13 @@
 {
     "id": 136393973,
     "name": "Sam Handwich",
-    "author": "zx14x",
-    "creators": ["zx14x"],
-    "verifier": "zx14x",
+    "author": "TesseractYT",
+    "creators": ["TesseractYT"],
+    "verifier": "TesseractYT",
     "verification": "https://www.youtube.com/watch?v=I9DwbnFzVBI",
     "percentToQualify": 89,
     "password": "Free To Copy",
     "records": [
-        {
-            "user": "TesseractYT",
-            "link": "",
-            "percent": 100,
-            "hz": 60
-        },
         {
             "user": "HelloItsMee",
             "link": "https://www.youtube.com/watch?v=i3oBNLgrdRY&t=290s",
