@@ -7,6 +7,12 @@
     "verification": "https://www.youtube.com/watch?v=lp6g45j6l-U",
     "percentToQualify": "70",
     "password": "Free To Copy",
-    "records": [
+    "records": [ 
+        {
+            "user": "vinyl"
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
