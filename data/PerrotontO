@@ -4,7 +4,7 @@
     "author": "TesseractYT",
     "creators": ["TesseractYT"],
     "verifier": "TesseractYT",
-    "verification": "skibidi rizz",
+    "verification": "https://www.youtube.com/watch?v=AAUTczTtfdg",
     "percentToQualify": 100,
     "password": "Free To Copy",
     "records": [
@@ -28,7 +28,7 @@
         },
         {
             "user": "4point5",
-            "link": "",
+            "link": "https://www.youtube.com/watch?v=AAUTczTtfdg",
             "percent": 100,
             "hz": 144
         }
