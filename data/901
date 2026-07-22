@@ -14,5 +14,17 @@
             "percent": 100,
             "hz": 60
         }
+        {
+            "user": "Diamondflow",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "4point5",
+            "link": "https://cdn.discordapp.com/attachments/1479939739930071124/1529533259627888680/8mb.video-JTX-RnQtDRL3.mp4?ex=6a62485a&is=6a60f6da&hm=97f58125f573539a686cfeb798b0464946272aefa84f5c6f1c8f032bdb0ab495&",
+            "percent": 100,
+            "hz": 144
+        }
     ]
 }
