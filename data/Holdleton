@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=s83lkO8SZ-s",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Arczenn",
+            "link": "",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
