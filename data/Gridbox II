@@ -9,13 +9,17 @@
     "percentToQualify": 68,
     "password": "Free To Copy",
     "records": [
-{
-
+        {
             "user": "4point5",
             "link": "none",
-
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "Diamondflow",
+            "link": "none",
+            "percent": 88,
+            "hz": 360
         }
     ]
 }
