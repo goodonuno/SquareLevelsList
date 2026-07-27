@@ -8,5 +8,17 @@
     "percentToQualify": "78",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=RfUQ1jIS3cc",
+            "percent": 100,
+            "hz": 144
+        }
+        {
+            "user": "vinyl",
+            "link": "",
+            "percent": 85,
+            "hz": 60
+        }
     ]
 }
