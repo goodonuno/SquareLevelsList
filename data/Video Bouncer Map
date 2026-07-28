@@ -38,5 +38,11 @@
                 "percent": 100,
                 "hz": 60
             }
+            {
+                "user": "Diamondflow",
+                "link": "https://www.youtube.com/watch?v=hF-clPVXBjY&t=170s",
+                "percent": 100,
+                "hz": 360
+            }
     ]
 }
