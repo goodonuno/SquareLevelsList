@@ -13,6 +13,12 @@
             "link": "https://www.youtube.com/watch?v=habHsca6LxU",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "Diamondflow",
+            "link": "https://www.youtube.com/watch?v=xTaQvYuHgC8",
+            "percent": 100,
+            "hz": 360
         }
     ]
 }
