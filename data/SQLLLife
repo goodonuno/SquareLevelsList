@@ -9,8 +9,14 @@
     "password": "Free To Copy",
     "records": [
         {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=C4b2eG4U_MU",
+            "percent": 100,
+            "hz": 144
+        },
+        {
             "user": "HelloItsMee",
-            "link": "",
+            "link": "https://youtu.be/fTm21LwePMI",
             "percent": 82,
             "hz": 60
         }
