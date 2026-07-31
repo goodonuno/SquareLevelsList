@@ -1,0 +1,24 @@
+{
+    "id": 136405809,
+    "name": "The Golden",
+    "author": "JacobAppleOnYT",
+    "creators": ["JacobAppleOnYT"],
+    "verifier": "JacobAppleOnYT",
+    "verification": "https://www.youtube.com/watch?v=2z-9yXpgICs",
+    "percentToQualify": "74",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "IgnacusYT",
+            "link": "",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=2z-9yXpgICs",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
