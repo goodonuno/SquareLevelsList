@@ -1,0 +1,24 @@
+{
+    "id": 138266680,
+    "name": "Anal Fish Disease",
+    "author": "TesseractYT",
+    "creators": ["TesseractYT"],
+    "verifier": "TesseractYT",
+    "verification": "https://www.youtube.com/watch?v=htS8hKmTCrQ",
+    "percentToQualify": "71",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "IgnacusYT",
+            "link": "",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=tJnLZuXkPOk",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
