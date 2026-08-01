@@ -1,0 +1,30 @@
+{
+    "id": 137091407,
+    "name": "Rushed",
+    "author": "Veinticomma",
+    "creators": ["Veinticomma"],
+    "verifier": "Veinticomma",
+    "verification": "https://youtu.be/AvcYqa5B4oI?si=qYh0TJnT_gqodMFo",
+    "percentToQualify": "32",
+    "password": "Free To Copy",
+    "records": [
+       {
+            "user": "IgnacusYT",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ApolloDerg",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "4point5",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        },
+    ]
+}
