@@ -1,0 +1,18 @@
+{
+    "id": 136476530,
+    "name": "Endurance",
+    "author": "TigerDashYT",
+    "creators": ["TigerDashYT"],
+    "verifier": "TigerDashYT",
+    "verification": "https://www.youtube.com/watch?v=ik7QCbqq0Q4",
+    "percentToQualify": "66",
+    "password": "Free To Copy",
+    "records": [
+      {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=ik7QCbqq0Q4",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
