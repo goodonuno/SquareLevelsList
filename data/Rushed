@@ -4,7 +4,7 @@
     "author": "Veinticomma",
     "creators": ["Veinticomma"],
     "verifier": "Veinticomma",
-    "verification": "https://youtu.be/AvcYqa5B4oI?si=qYh0TJnT_gqodMFo",
+    "verification": "hhttps://www.youtube.com/watch?v=uvLd9doA4T0",
     "percentToQualify": 32,
     "password": "Free To Copy",
     "records": [
@@ -22,7 +22,7 @@
         },
         {
             "user": "4point5",
-            "link": "",
+            "link": "https://www.youtube.com/watch?v=uvLd9doA4T0",
             "percent": 100,
             "hz": 144
         }
