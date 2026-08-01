@@ -13,6 +13,12 @@
             "link": "https://www.youtube.com/watch?v=xXHshs4h3pM",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "DaReal",
+            "link": "https://youtu.be/L-I1hqz-3s0?is=0mvXaQ--i-4JgQqR",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
