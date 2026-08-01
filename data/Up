@@ -1,0 +1,24 @@
+{
+    "id": 134294720,
+    "name": "Up",
+    "author": "TesseractYT",
+    "creators": ["TesseractYT"],
+    "verifier": "TesseractYT",
+    "verification": "",
+    "percentToQualify": "76",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "IgnacusYT",
+            "link": "",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "4point5",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
