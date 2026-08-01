@@ -1,0 +1,18 @@
+{
+    "id": 139058235,
+    "name": "medium time",
+    "author": "TesseractYT",
+    "creators": ["TesseractYT"],
+    "verifier": "TesseractYT",
+    "verification": "https://www.youtube.com/watch?v=xXHshs4h3pM",
+    "percentToQualify": "82",
+    "password": "Free To Copy",
+    "records": [
+      {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=xXHshs4h3pM",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
