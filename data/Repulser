@@ -1,0 +1,18 @@
+{
+    "id": 138345577,
+    "name": "Repulser",
+    "author": "JacobAppleOnYt",
+    "creators": ["JacobAppleOnYt"],
+    "verifier": "JacobAppleOnYt",
+    "verification": "https://www.youtube.com/watch?v=XRYJJ5NTB9w",
+    "percentToQualify": "47",
+    "password": "Free To Copy",
+    "records": [
+      {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=XRYJJ5NTB9w",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
