@@ -1,0 +1,30 @@
+{
+    "id": 138156391,
+    "name": "ZirkonX Factorial 1",
+    "author": "TesseractYT",
+    "creators": ["TesseractYT"],
+    "verifier": "TesseractYT",
+    "verification": "",
+    "percentToQualify": "66",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Veinticomma",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "IgnacusYT",
+            "link": "",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "4point5",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
