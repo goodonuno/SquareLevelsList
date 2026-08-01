@@ -3,10 +3,22 @@
     "name": "Cant Find Square",
     "author": "Veinticomma",
     "creators": ["Veinticomma"],
-    "verifier": "4point5",
+    "verifier": "HelloItsMee",
     "verification": "https://www.youtube.com/watch?v=DSMADo63qpk",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=DSMADo63qpk",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "Murel",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
