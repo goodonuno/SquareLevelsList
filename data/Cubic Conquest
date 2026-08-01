@@ -9,6 +9,12 @@
     "password": "Free To Copy",
     "records": [
         {
+            "user": "ruby",
+            "link": "https://www.youtube.com/watch?v=uCP3xy2Dp1g",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "IgnacusYT",
             "link": "",
             "percent": 100,
