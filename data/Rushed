@@ -5,7 +5,7 @@
     "creators": ["Veinticomma"],
     "verifier": "Veinticomma",
     "verification": "https://youtu.be/AvcYqa5B4oI?si=qYh0TJnT_gqodMFo",
-    "percentToQualify": "32",
+    "percentToQualify": 32,
     "password": "Free To Copy",
     "records": [
        {
