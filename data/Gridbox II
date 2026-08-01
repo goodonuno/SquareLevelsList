@@ -16,6 +16,19 @@
             "hz": 144
         },
         {
+            "user": "ruby",
+            "link": "https://www.youtube.com/watch?v=PzSKJWn0O08",
+            "percent": 100,
+            "hz": 60
+        },
+
+        {
+            "user": "Hydrogen",
+            "link": "https://youtu.be/meUruhjDIOY",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "Diamondflow",
             "link": "https://www.youtube.com/watch?v=nuLkY9E4Efo",
             "percent": 100,
