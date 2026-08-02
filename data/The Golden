@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=2z-9yXpgICs",
             "percent": 100,
             "hz": 60
-        }
+        },
+            {
+                "user": "Vanity485_",
+                "link": "https://www.youtube.com/watch?v=IfTZM0dBMhg",
+                "percent": 100,
+                "hz": 144
+            }
     ]
 }
