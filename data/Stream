@@ -1,0 +1,18 @@
+{
+    "id": 146017373,
+    "name": "Stream",
+    "author": "JacobAppleOnYT",
+    "creators": ["JacobAppleOnYT"],
+    "verifier": "JacobAppleOnYT",
+    "verification": "https://www.youtube.com/watch?v=SP1IJ8r2q30",
+    "percentToQualify": "60",
+    "password": "Free To Copy",
+    "records": [
+      {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=SP1IJ8r2q30",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
