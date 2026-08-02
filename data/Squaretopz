@@ -1,0 +1,24 @@
+{
+    "id": 143662672,
+    "name": "Squaretopz",
+    "author": "JacobAppleOnYt",
+    "creators": ["JacobAppleOnYt"],
+    "verifier": "JacobAppleOnYt",
+    "verification": "https://www.youtube.com/watch?v=01fJ6vmdLL4",
+    "percentToQualify": "61",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "IgnacusYT",
+            "link": "",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=01fJ6vmdLL4",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
