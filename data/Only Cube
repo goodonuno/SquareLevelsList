@@ -9,11 +9,16 @@
     "password": "Free To Copy",
     "records": [
         {
+            "user": "icg",
+            "link": "https://youtu.be/3Hrm7C8DKTU?is=cwZcnGrmuVVfhULr",
+            "percent": 100,
+            "hz": 144
+        },
+        {
             "user": "IgnacusYT",
             "link": "",
             "percent": 87,
             "hz": 120
         }
-
     ]
 }
