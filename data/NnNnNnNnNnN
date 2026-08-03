@@ -8,5 +8,11 @@
     "percentToQualify": "61",
     "password": "Free To Copy",
     "records": [
+          {
+            "user": "DaReal",
+            "link": "https://youtu.be/eYE1K_EUMUQ?is=1-Zjg9AePqsPV9Mi",
+            "percent": 100,
+            "hz": 60
+          }
     ]
 }
