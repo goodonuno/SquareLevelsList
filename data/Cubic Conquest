@@ -25,6 +25,12 @@
             "link": "https://www.youtube.com/watch?v=kbWVhuLkSxg",
             "percent": 100,
             "hz": 360
+        },
+        {
+            "user": "Dashy",
+            "link": "https://www.youtube.com/watch?v=KwMOFfzyEnw",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
