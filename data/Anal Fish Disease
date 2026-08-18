@@ -25,6 +25,12 @@
                 "link": "https://www.youtube.com/watch?v=IfTZM0dBMhg&t=90s",
                 "percent": 100,
                 "hz": 144
-            }
+            },
+        {
+            "user": "GroupNil",
+            "link": "https://sqllstream.base44.app/watch/6a8475c6cac2cd25a0c8c5f1",
+            "percent": 100,
+            "hz": 180
+        }
     ]
 }
