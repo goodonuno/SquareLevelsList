@@ -8,17 +8,23 @@
     "percentToQualify": "71",
     "password": "Free To Copy",
     "records": [
-{
-            "user": "Veinticomma",
-            "link": "",
-            "percent": 92,
-            "hz": 60
-        },
         {
             "user": "4point5",
             "link": "",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "HelloItsMee",
+            "link": "https://www.youtube.com/watch?v=VR9dbPDSIAM",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Veinticomma",
+            "link": "",
+            "percent": 92,
+            "hz": 60
         }
     ]
 }
