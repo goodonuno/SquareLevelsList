@@ -31,6 +31,12 @@
             "link": "https://www.youtube.com/watch?v=DAeFqbjDqEE",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "HelloItsMee",
+            "link": "https://www.youtube.com/watch?v=VR9dbPDSIAM",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
