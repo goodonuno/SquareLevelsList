@@ -16,7 +16,7 @@
         },
         {
             "user": "Hydrogen",
-            "link": "https://www.youtube.com/watch?v=3Gw0DnCU2ao",
+            "link": "https://youtu.be/8ZUKqTM_cjM",
             "percent": 100,
             "hz": 60
         },
@@ -32,11 +32,5 @@
                 "percent": 100,
                 "hz": 144
             },
-        {
-            "user": "Hydrogen",
-            "link": "https://youtu.be/8ZUKqTM_cjM",
-            "percent": 100,
-            "hz": 60
-        }
     ]
 }
