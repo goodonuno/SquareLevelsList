@@ -25,6 +25,12 @@
             "link": "",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "NM",
+            "link": "https://youtu.be/tRNeJ_BzbKA",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
