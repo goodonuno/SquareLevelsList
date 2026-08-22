@@ -8,5 +8,11 @@
     "percentToQualify": "70",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "Hydrogen",
+            "link": "https://youtu.be/Cl7kmtFkdok",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
