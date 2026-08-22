@@ -1,0 +1,18 @@
+{
+    "id": 146102151,
+    "name": "Bottom of the SQLL",
+    "author": "EDawgHill",
+    "creators": ["EDawgHill"],
+    "verifier": "EDawgHill",
+    "verification": "https://youtu.be/fR4s4SDnPj8",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+          {
+            "user": "4point5",
+            "link": "https://youtu.be/fR4s4SDnPj8",
+            "percent": 100,
+            "hz": 144
+          }
+    ]
+}
