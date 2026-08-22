@@ -19,6 +19,12 @@
             "link": "https://www.youtube.com/watch?v=M1EsOvaEaHo",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "4point5",
+            "link": "https://youtu.be/oaVsJEmhN-k",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
