@@ -55,6 +55,12 @@
             "link": "https://sqllstream.base44.app/watch/6a8477b54219e45c3845c387",
             "percent": 100,
             "hz": 180
+        },
+        {
+            "user": "Hydrogen",
+            "link": "https://sqllstream.base44.app/watch/6a8477b54219e45c3845c387",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
