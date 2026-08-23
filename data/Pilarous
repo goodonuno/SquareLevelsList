@@ -13,6 +13,12 @@
             "link": "https://sqllstream.base44.app/watch/6a8a28620891db88bf485d7e",
             "percent": 100,
             "hz": 144
-        }
+        },
+          {
+            "user": "Arczenn",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+          }
     ]
 }
