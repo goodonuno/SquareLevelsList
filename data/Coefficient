@@ -31,6 +31,12 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Diamondflow",
+            "link": "none",
+            "percent": 100,
+            "hz": 480
         }
     ]
 }
