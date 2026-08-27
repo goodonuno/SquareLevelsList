@@ -15,6 +15,12 @@
             "hz": 144
         },
         {
+            "user": "Hydrogen",
+            "link": "https://www.youtube.com/watch?v=cK040GTTmAo",
+            "percent": 100,
+            "hz": 240
+        },
+        {
             "user": "vinyl",
             "link": "",
             "percent": 85,
