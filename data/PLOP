@@ -43,6 +43,12 @@
             "link": "",
             "percent": 100,
             "hz": 480
+          },
+        { 
+            "user": "Hydrogen",
+            "link": "",
+            "percent": 100,
+            "hz": 240
           }
     ]
 }
