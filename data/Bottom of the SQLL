@@ -55,6 +55,12 @@
             "link": "https://www.youtube.com/watch?v=cK040GTTmAo",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Veinticomma",
+            "link": "discord.com/app",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
