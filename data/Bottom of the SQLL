@@ -61,6 +61,12 @@
             "link": "discord.com/app",
             "percent": 100,
             "hz": 240
-        }
+        },
+        {
+            "user": "GroupNil",
+            "link": "https://youtu.be/0N1bWgbIJMY",
+            "percent": 100,
+            "hz": 180
+        },
     ]
 }
