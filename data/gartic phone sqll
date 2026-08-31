@@ -9,6 +9,12 @@
     "password": "Free To Copy",
     "records": [
         {
+            "user": "LuigiPres1",
+            "link": "https://www.youtube.com/watch?v=qZ3K7S_gHho",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "GroupNil",
             "link": "",
             "percent": 100,
