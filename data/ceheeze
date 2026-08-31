@@ -37,6 +37,12 @@
             "link": "",
             "percent": 100,
             "hz": 60
+          },
+         {
+            "user": "LuigiPres1",
+            "link": "https://www.youtube.com/watch?v=hF7iVnvcYC4",
+            "percent": 100,
+            "hz": 60
           }
     ]
 }
