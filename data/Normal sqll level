@@ -10,9 +10,9 @@
     "records": [
         {
             "user": "LuigiPres1",
-            "link": "https://www.youtube.com/watch?v=5khj6LPpO2M"
+            "link": "https://www.youtube.com/watch?v=5khj6LPpO2M",
             "percent": 100,
             "hz": 60
-        }
+          }
     ]
 }
