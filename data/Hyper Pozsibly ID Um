@@ -8,5 +8,17 @@
     "percentToQualify": "74",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "LuigiPres1",
+            "link": "https://youtu.be/iKLaTHMxwlk?si=2V0lit7APQ5eorSs",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Arczen",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
