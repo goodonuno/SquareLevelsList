@@ -8,6 +8,12 @@
     "percentToQualify": "33",
     "password": "Free To Copy",
     "records": [
+           {
+            "user": "LuigiPres1",
+            "link": "",
+            "percent": 58,
+            "hz": 60
+          },  
           {
             "user": "Vanity485_",
             "link": "",
