@@ -67,6 +67,12 @@
             "link": "discord.com/app",
             "percent": 100,
             "hz": 240
-          }
+          },
+        {
+            "user": "GroupNil",
+            "link": "https://sqllstream.base44.app/watch/6a95c40269c646cec391cc64",
+            "percent": 100,
+            "hz": 180
+        }
     ]
 }
