@@ -61,7 +61,12 @@
             "link": "https://youtu.be/EZvuWF2tnjQ?si=c-jwU4wa5gRYe0L5",
             "percent": 100,
             "hz": 60
-          }
-
+          },
+        {
+            "user": "icg",
+            "link": "https://www.youtube.com/watch?v=2962Z93Npbw",
+            "percent": 100,
+            "hz": 144
+        }
     ]
 }
