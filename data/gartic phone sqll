@@ -31,6 +31,12 @@
             "link": "https://youtu.be/8U7B5M0svNc",
             "percent": 100,
             "hz": 144
-        }
+        },
+          {
+            "user": "Arczenn",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+          }
     ]
 }
