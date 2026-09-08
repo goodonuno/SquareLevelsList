@@ -91,6 +91,12 @@
             "link": "",
             "percent": 100,
             "hz": 120
+          },
+        {
+            "user": "XBFDIOfficial",
+            "link": "https://www.youtube.com/watch?v=2C5Guxgx6kI",
+            "percent": 100,
+            "hz": 60
           }
     ]
 }
