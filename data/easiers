@@ -1,0 +1,18 @@
+{
+    "id": 148630638,
+    "name": "easiers ",
+    "author": "IgnacusYT",
+    "creators": ["IgnacusYT", "LuigiPres1"],
+    "verifier": "IgnacusYT",
+    "verification": "https://www.youtube.com/watch?v=82d0xXQtRT0
+    "percentToQualify": 100,
+    "password": "Free to Copy",
+    "records": [
+        {
+            "user": "LuigiPres1",
+            "link": "https://www.youtube.com/watch?v=MgJeijBGKHU",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
