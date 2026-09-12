@@ -19,6 +19,12 @@
                 "link": "https://www.youtube.com/watch?v=Y9bcTooOdgg",
                 "percent": 100,
                 "hz": 144
+            },
+            {
+                "user": "LuigiPres1",
+                "link": "https://youtu.be/SLHE9vlrCpU?si=mKOXmzOtYlwmtGZP",
+                "percent": 100,
+                "hz": 60
             }
     ]
 }
