@@ -67,6 +67,12 @@
             "link": "https://www.youtube.com/watch?v=z0ygNJ-Ew20",
             "percent": 100,
             "hz": 60
+          },
+          {
+            "user": "DaReal",
+            "link": "https://youtu.be/UPWUyqKDbdg",
+            "percent": 100,
+            "hz": 60
           }
     ]
 }
