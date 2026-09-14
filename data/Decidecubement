@@ -1,0 +1,24 @@
+{
+    "id": 148825124,
+    "name": "Decidecubement",
+    "author": "IgnacusYT",
+    "creators": ["TesseractYT"],
+    "verifier": "IgnacusYT",
+    "verification": "https://youtu.be/cBBM_bm51x0?si=7PHsFr4-S1NsrSWN",
+    "percentToQualify": 79,
+    "password": "Free to Copy",
+    "records": [
+        {
+            "user": "Arczenn",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Vanity485_",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
