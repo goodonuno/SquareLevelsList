@@ -37,6 +37,18 @@
             "link": "",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "XBFDIOfficial",
+            "link": "https://youtu.be/eTlfCXH4wts?si=Lueu5HP2dqVZSUX6",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "DaReal",
+            "link": "https://youtu.be/FZyBufD708o?si=a7KPwebgVacGIgI3",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
