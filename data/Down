@@ -8,12 +8,6 @@
     "percentToQualify": "36",
     "password": "Free To Copy",
     "records": [
-          {
-            "user": "IgnacusYT",
-            "link": "",
-            "percent": 96,
-            "hz": 60
-        },
         {
             "user": "Hydrogen",
             "link": "https://youtu.be/Qh0MahnRjE8",
@@ -43,6 +37,12 @@
             "link": "",
             "percent": 100,
             "hz": 144
+        }
+          {
+            "user": "ignacus",
+            "link": "",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
