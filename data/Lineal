@@ -1,0 +1,24 @@
+{
+    "id": 147907896,
+    "name": "Lineal",
+    "author": "Murel",
+    "creators": ["Murel"],
+    "verifier": "Murel",
+    "verification": "",
+    "percentToQualify": "58",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Veinticomma",
+            "link": "",
+            "percent": 77,
+            "hz": 60
+        },
+        {
+            "user": "JacobAppleOnYt",
+            "link": "",
+            "percent": 58,
+            "hz": 120
+        }
+    ]
+}
