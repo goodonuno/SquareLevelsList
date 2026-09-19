@@ -9,6 +9,12 @@
     "password": "Free To Copy",
     "records": [
         {
+            "user": "4point5",
+            "link": "https://youtu.be/tOgIHFCd2P0",
+            "percent": 100,
+            "hz": 144
+        },
+        {
             "user": "Veinticomma",
             "link": "",
             "percent": 77,
@@ -18,7 +24,7 @@
             "user": "JacobAppleOnYt",
             "link": "",
             "percent": 58,
-            "hz": 120
+            "hz": 60
         }
     ]
 }
