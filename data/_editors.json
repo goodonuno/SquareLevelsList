@@ -4,6 +4,11 @@
         "name": "Veinticomma",
         "link": "https://www.youtube.com/channel/UCkbmueLgGIZSxDC_dTiPClg"
     },
+        {
+        "role": "admin",
+        "name": "TesseractYT",
+        "link": "https://www.youtube.com/channel/UCPaeMMTuHWx5e_399-T2ZCw"
+    },
     {
         "role": "admin",
         "name": "vinyl",
@@ -23,5 +28,10 @@
         "role": "admin",
         "name": "LuigiPres1",
         "link": "https://www.youtube.com/channel/UCsl2X7XS4BheQ7KZwKzzU4w"
+    },
+         {
+        "role": "helper",
+        "name": "MainIsHerelol",
+        "link": "https://www.youtube.com/channel/UCgfUeimQcRa4l6wJAHWsj_Q"
     }
 ]
