@@ -43,18 +43,6 @@
             "link": "",
             "percent": 100,
             "hz": 60
-        },
-        {
-            "user": "guacamole",
-            "link": "",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "apple",
-            "link": "",
-            "percent": 100,
-            "hz": 60
         }
     ]
 }
