@@ -43,6 +43,18 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "test 1",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "test 2",
+            "link": "",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
