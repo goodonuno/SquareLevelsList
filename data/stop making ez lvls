@@ -25,6 +25,12 @@
                 "link": "https://youtu.be/SLHE9vlrCpU?si=mKOXmzOtYlwmtGZP",
                 "percent": 100,
                 "hz": 60
+            },
+            {
+                "user": "DaReal",
+                "link": "https://www.youtube.com/watch?v=X-0Y2ku9xoo",
+                "percent": 100,
+                "hz": 60
             }
     ]
 }
