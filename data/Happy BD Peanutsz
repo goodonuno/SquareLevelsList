@@ -1,0 +1,18 @@
+{
+    "id": 149133919,
+    "name": "Happy BD Peanutsz",
+    "author": "Murel",
+    "creators": ["Murel"],
+    "verifier": "Murel",
+    "verification": "https://youtu.be/ZcMdbKsWjuE",
+    "percentToQualify": "55",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "4point5",
+            "link": "https://youtu.be/ZcMdbKsWjuE",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
