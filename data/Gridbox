@@ -109,6 +109,12 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "pepito020",
+            "link": "",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
