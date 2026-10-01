@@ -1,0 +1,18 @@
+{
+    "id": 149629154,
+    "name": "Amount",
+    "author": "TwoCandy09",
+    "creators": ["TwoCandy09"],
+    "verifier": "TwoCandy09",
+    "verification": "https://www.youtube.com/watch?v=m8YroqMSvVY",
+    "percentToQualify": "65"
+    "password": "Free To Copy",
+    "records": [
+       {
+            "user": "DaReal",
+            "link": "https://youtu.be/V50w-ZuwqPE?si=S2cooXtCBD46_R9c",
+            "percent": 94,
+            "hz": 60
+        }
+    ]
+}
