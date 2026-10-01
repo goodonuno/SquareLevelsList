@@ -1,0 +1,18 @@
+{
+    "id": 149457075,
+    "name": "Easy square",
+    "author": "Murel",
+    "creators": ["Murel"],
+    "verifier": "Murel",
+    "verification": "https://youtu.be/bF6WT1-AzDs",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "4point5",
+            "link": "https://youtu.be/bF6WT1-AzDs",
+            "percent": 100,
+            "hz": 144
+        }
+    ]
+}
