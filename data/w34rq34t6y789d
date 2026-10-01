@@ -31,6 +31,12 @@
             "link": "https://youtu.be/O-Qmt3YsKtM",
             "percent": 100,
             "hz": 144
+        },
+       {
+            "user": "Murel",
+            "link": "",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
