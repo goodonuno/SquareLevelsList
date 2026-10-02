@@ -19,6 +19,12 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Veinticomma",
+            "link": "",
+            "percent": 64,
+            "hz": 60
         }
     ]
 }
