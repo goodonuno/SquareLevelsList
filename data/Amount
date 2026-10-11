@@ -9,6 +9,12 @@
     "password": "Free To Copy",
     "records": [
        {
+            "user": "Vanity485",
+            "link": "https://www.youtube.com/watch?v=zAoAVnLMvAg",
+            "percent": 100,
+            "hz": 144
+        },
+       {
             "user": "DaReal",
             "link": "https://youtu.be/V50w-ZuwqPE?si=S2cooXtCBD46_R9c",
             "percent": 94,
