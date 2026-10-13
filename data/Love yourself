@@ -19,6 +19,12 @@
             "link": "",
             "percent": 100,
             "hz": 144
+          },
+          {
+            "user": "Speedrunner871",
+            "link": "https://www.youtube.com/watch?v=xAalJOVF-C0",
+            "percent": 100,
+            "hz": 240
           }
     ]
 }
