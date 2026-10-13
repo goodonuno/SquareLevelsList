@@ -8,5 +8,29 @@
     "percentToQualify": "74",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "Arczenn",
+            "link": "",
+            "percent": 77,
+            "hz": 60
+        },
+        {
+            "user": "TesseractYT",
+            "link": "",
+            "percent": 77,
+            "hz": 60
+        },
+        {
+            "user": "4point5",
+            "link": "",
+            "percent": 74,
+            "hz": 60
+        },
+        {
+            "user": "Vanity485_",
+            "link": "",
+            "percent": 74,
+            "hz": 60
+        }
     ]
 }
