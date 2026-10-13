@@ -50,6 +50,12 @@
             "link": "https://youtu.be/j8kmCWrpd_Q?si=rveiYunDlxZES3YG",
             "percent": 100,
             "hz": 60
+        },
+        { 
+            "user": "Speedrunner871",
+            "link": "https://youtu.be/EgvTAmGTaZw",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
