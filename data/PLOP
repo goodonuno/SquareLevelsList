@@ -61,6 +61,12 @@
             "link": "",
             "percent": 100,
             "hz": 60
-        }
+        },
+          {
+            "user": "BlahajLove",
+            "link": "https://youtu.be/9DvaxYgVzcc",
+            "percent": 100,
+            "hz": 144
+          }
     ]
 }
