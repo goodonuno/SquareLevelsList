@@ -1,0 +1,12 @@
+{
+    "id": 1234,
+    "name": "Thunder Theory",
+    "author": "TesseractYT",
+    "creators": ["TesseractYT"],
+    "verifier": "Speedrunner871",
+    "verification": "https://www.youtube.com/watch?v=ZSF0mHZPn7E",
+    "percentToQualify": 62,
+    "password": "Free to Copy",
+    "records": [
+    ]
+}
