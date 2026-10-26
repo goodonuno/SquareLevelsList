@@ -2,36 +2,38 @@
     "id": 148519359,
     "name": "retro machine",
     "author": "XBFDIOfficial",
-    "creators": ["XBFDIOfficial"],
+    "creators": [
+        "XBFDIOfficial"
+    ],
     "verifier": "XBFDIOfficial",
     "verification": "https://www.youtube.com/watch?v=CSDOLKS_4j4",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
-          {
+        {
             "user": "LuigiPres1",
             "link": "https://youtu.be/qupro7llbk0?si=LCKm0vIOwLe4h_Yc",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "Vanity485_",
             "link": "",
             "percent": 100,
             "hz": 144
-          },       
-          {
+        },
+        {
             "user": "Veinticomma",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "4point5",
             "link": "",
             "percent": 100,
             "hz": 144
-          },
+        },
         {
             "user": "icg",
             "link": "",
@@ -74,11 +76,25 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          }
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/to5O8AjReQU",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-24"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }

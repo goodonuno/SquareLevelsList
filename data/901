@@ -2,12 +2,14 @@
     "id": 145171901,
     "name": "901",
     "author": "Vanity485_",
-    "creators": ["Vanity485_"],
+    "creators": [
+        "Vanity485_"
+    ],
     "verifier": "Vanity485_",
     "verification": "https://www.youtube.com/watch?v=lp6g45j6l-U",
     "percentToQualify": "70",
     "password": "Free To Copy",
-    "records": [ 
+    "records": [
         {
             "user": "vinyl",
             "link": "",
@@ -55,6 +57,13 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

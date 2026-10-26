@@ -2,7 +2,9 @@
     "id": 147475916,
     "name": "Coefficient",
     "author": "Vanity485_",
-    "creators": ["Vanity485_"],
+    "creators": [
+        "Vanity485_"
+    ],
     "verifier": "Vanity485_",
     "verification": "https://www.youtube.com/watch?v=U-nYS86Ko7M",
     "percentToQualify": "59",
@@ -45,17 +47,24 @@
             "percent": 100,
             "hz": 480
         },
-        { 
+        {
             "user": "LuigiPres1",
             "link": "https://youtu.be/j8kmCWrpd_Q?si=rveiYunDlxZES3YG",
             "percent": 100,
             "hz": 60
         },
-        { 
+        {
             "user": "Speedrunner871",
             "link": "https://youtu.be/EgvTAmGTaZw",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "NM",
+            "link": "https://youtu.be/qgQoftKtbRA",
+            "percent": 100,
+            "hz": 480,
+            "date": "2026-08-24"
         }
     ]
 }

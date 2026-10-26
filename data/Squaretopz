@@ -2,7 +2,9 @@
     "id": 143662672,
     "name": "Squaretopz",
     "author": "JacobAppleOnYt",
-    "creators": ["JacobAppleOnYt"],
+    "creators": [
+        "JacobAppleOnYt"
+    ],
     "verifier": "JacobAppleOnYt",
     "verification": "https://www.youtube.com/watch?v=01fJ6vmdLL4",
     "percentToQualify": "61",
@@ -38,24 +40,24 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "zed",
             "link": "",
             "percent": 100,
             "hz": 120
-          },
-          {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://youtu.be/EZvuWF2tnjQ?si=c-jwU4wa5gRYe0L5",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "icg",
             "link": "https://www.youtube.com/watch?v=2962Z93Npbw",
@@ -67,6 +69,20 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/vNxGYZlF0a0",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-25"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

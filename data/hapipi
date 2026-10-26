@@ -2,7 +2,9 @@
     "id": 147412486,
     "name": "hapipi",
     "author": "GroupNil",
-    "creators": ["GroupNil"],
+    "creators": [
+        "GroupNil"
+    ],
     "verifier": "GroupNil",
     "verification": "https://youtu.be/Eyoaj6COLQA",
     "percentToQualify": 100,
@@ -26,18 +28,18 @@
             "percent": 100,
             "hz": 144
         },
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },  
-          {
+        },
+        {
             "user": "Vanity485_",
             "link": "",
             "percent": 100,
             "hz": 144
-          },
+        },
         {
             "user": "Murel",
             "link": "",
@@ -49,6 +51,20 @@
             "link": "https://www.youtube.com/watch?v=X-0Y2ku9xoo",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "GroupNil",
+            "link": "https://sqllstream.base44.app/watch/6a88131166d0c43e268903ed",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-08-21"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

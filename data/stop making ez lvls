@@ -2,41 +2,50 @@
     "id": 148638870,
     "name": "stop making ez lvls",
     "author": "Veinticomma",
-    "creators": ["Veinticomma"],
+    "creators": [
+        "Veinticomma"
+    ],
     "verifier": "Veinticomma",
     "verification": "https://www.youtube.com/watch?v=EXa_bGys1io",
     "percentToQualify": 100,
     "password": "Free to copy",
     "records": [
-            {
-                "user": "Vanity485_",
-                "link": "https://www.youtube.com/watch?v=Vw5F7YhhGzs",
-                "percent": 100,
-                "hz": 144
-            },
-            {
-                "user": "4point5",
-                "link": "https://www.youtube.com/watch?v=Y9bcTooOdgg",
-                "percent": 100,
-                "hz": 144
-            },
-            {
-                "user": "LuigiPres1",
-                "link": "https://youtu.be/SLHE9vlrCpU?si=mKOXmzOtYlwmtGZP",
-                "percent": 100,
-                "hz": 60
-            },
-            {
-                "user": "DaReal",
-                "link": "https://www.youtube.com/watch?v=X-0Y2ku9xoo",
-                "percent": 100,
-                "hz": 60
-            },
-          {
+        {
+            "user": "Vanity485_",
+            "link": "https://www.youtube.com/watch?v=Vw5F7YhhGzs",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "4point5",
+            "link": "https://www.youtube.com/watch?v=Y9bcTooOdgg",
+            "percent": 100,
+            "hz": 144
+        },
+        {
+            "user": "LuigiPres1",
+            "link": "https://youtu.be/SLHE9vlrCpU?si=mKOXmzOtYlwmtGZP",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "DaReal",
+            "link": "https://www.youtube.com/watch?v=X-0Y2ku9xoo",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          }
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }

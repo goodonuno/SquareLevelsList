@@ -2,18 +2,20 @@
     "id": 147538353,
     "name": "2 milliseconds",
     "author": "4point5",
-    "creators": ["4point5"],
+    "creators": [
+        "4point5"
+    ],
     "verifier": "4point5",
     "verification": "https://www.youtube.com/watch?v=idJzTBGBFT8",
     "percentToQualify": "75",
     "password": "Free To Copy",
     "records": [
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "LuigiPres1",
             "link": "https://www.youtube.com/watch?v=e9FLimd4G8o",
@@ -31,6 +33,20 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Opal",
+            "link": "https://youtu.be/z-cyWqXJ4tQ",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-24"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

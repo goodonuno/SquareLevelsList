@@ -2,53 +2,62 @@
     "id": 137763632,
     "name": "Last cube standing",
     "author": "JacobAppleOnYt",
-    "creators": ["JacobAppleOnYt"],
+    "creators": [
+        "JacobAppleOnYt"
+    ],
     "verifier": "JacobAppleOnYt",
     "verification": "https://www.youtube.com/watch?v=UXDDOIzkZbc",
     "percentToQualify": "73",
     "password": "Free To Copy",
     "records": [
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-            {
-                "user": "Vanity485_",
-                "link": "",
-                "percent": 100,
-                "hz": 144
-            },
-        { 
+        },
+        {
+            "user": "Vanity485_",
+            "link": "",
+            "percent": 100,
+            "hz": 144
+        },
+        {
             "user": "Hydrogen",
             "link": "https://youtu.be/hoRMUerMuU4",
             "percent": 100,
             "hz": 240
-          },
-            {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://www.youtube.com/watch?v=xTSHNHlbRsg",
             "percent": 100,
             "hz": 60
-          },
-            {
+        },
+        {
             "user": "4point5",
             "link": "https://youtu.be/eHLwMg0r8A4",
             "percent": 100,
             "hz": 144
-          },
-            {
+        },
+        {
             "user": "Murel",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          }
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }

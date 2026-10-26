@@ -2,7 +2,9 @@
     "id": 134355658,
     "name": "The Mad One",
     "author": "TesseractYT",
-    "creators": ["TesseractYT"],
+    "creators": [
+        "TesseractYT"
+    ],
     "verifier": "TesseractYT",
     "verification": "https://www.youtube.com/watch?v=PKgM3JtEyd4",
     "percentToQualify": "71",
@@ -26,53 +28,60 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "Vanity485_",
             "link": "",
             "percent": 100,
             "hz": 144
-          },
-          {
+        },
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "Veinticomma",
             "link": "",
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "zed",
             "link": "",
             "percent": 100,
             "hz": 120
-          },
-           {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://www.youtube.com/watch?v=pqo5qfkPo68",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "Murel",
             "link": "",
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "BlahajLove",
             "link": "https://youtu.be/E_yDkfznvKU",
             "percent": 100,
             "hz": 144
-          }
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }

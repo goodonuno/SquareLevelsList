@@ -2,54 +2,56 @@
     "id": 146102151,
     "name": "Bottom of the SQLL",
     "author": "EDawgHill",
-    "creators": ["EDawgHill"],
+    "creators": [
+        "EDawgHill"
+    ],
     "verifier": "EDawgHill",
     "verification": "https://youtu.be/fR4s4SDnPj8",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
-          {
+        {
             "user": "4point5",
             "link": "https://youtu.be/fR4s4SDnPj8",
             "percent": 100,
             "hz": 144
-          },
-          {
+        },
+        {
             "user": "Vanity485_",
             "link": "",
             "percent": 100,
             "hz": 144
-          },
-          {
+        },
+        {
             "user": "TesseractYT",
             "link": "https://sqllstream.base44.app/watch/6a8a009e4077339d6c550a4b",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "zed",
             "link": "",
             "percent": 100,
             "hz": 120
-          },
-          {
+        },
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://youtu.be/qupro7llbk0?si=LCKm0vIOwLe4h_Yc",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "Hydrogen",
             "link": "https://www.youtube.com/watch?v=cK040GTTmAo",
@@ -74,18 +76,18 @@
             "percent": 100,
             "hz": 144
         },
-          {
+        {
             "user": "tororosso8931",
             "link": "",
             "percent": 100,
             "hz": 120
-          },
-         {
+        },
+        {
             "user": "DaReal",
             "link": "https://youtu.be/AduLkXX46bc?si=wAqqoO0lfdKwTPPr",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "Murel",
             "link": "",
@@ -104,11 +106,32 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "Skore",
             "link": "",
             "percent": 100,
             "hz": 240
-          }
+        },
+        {
+            "user": "tororosso8931",
+            "link": "https://youtu.be/sWoWwGcR0Ps",
+            "percent": 100,
+            "hz": 120,
+            "date": "2026-09-07"
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/to5O8AjReQU",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-24"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }

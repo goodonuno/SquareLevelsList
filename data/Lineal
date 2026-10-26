@@ -2,7 +2,9 @@
     "id": 147907896,
     "name": "Lineal",
     "author": "Murel",
-    "creators": ["Murel"],
+    "creators": [
+        "Murel"
+    ],
     "verifier": "Murel",
     "verification": "https://www.youtube.com/watch?v=gRNydb4iuCw",
     "percentToQualify": "58",
@@ -44,17 +46,31 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "DaReal",
             "link": "https://youtu.be/4blxvlEnGNY?si=Nk2tGxBzcLgC0468",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Oliveriomf",
+            "link": "https://youtu.be/gRNydb4iuCw",
+            "percent": 100,
+            "hz": 60,
+            "date": "2026-09-18"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

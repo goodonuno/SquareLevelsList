@@ -2,7 +2,9 @@
     "id": 148048408,
     "name": "gartic phone sqll",
     "author": "Veinticomma",
-    "creators": ["Veinticomma"],
+    "creators": [
+        "Veinticomma"
+    ],
     "verifier": "Veinticomma",
     "verification": "",
     "percentToQualify": "97",
@@ -32,24 +34,24 @@
             "percent": 100,
             "hz": 144
         },
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "Vanity485_",
             "link": "",
             "percent": 100,
             "hz": 144
-          },
-          {
+        },
+        {
             "user": "tororosso8931",
             "link": "",
             "percent": 100,
             "hz": 120
-          },
+        },
         {
             "user": "DaReal",
             "link": "https://youtu.be/FZyBufD708o?si=c-u8Vwh1I768xogf",
@@ -80,11 +82,25 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          }
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/to5O8AjReQU",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-24"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }

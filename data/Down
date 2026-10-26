@@ -2,7 +2,9 @@
     "id": 136402931,
     "name": "Down",
     "author": "TesseractYT",
-    "creators": ["TesseractYT"],
+    "creators": [
+        "TesseractYT"
+    ],
     "verifier": "TesseractYT",
     "verification": "https://youtu.be/46cBCHX5cWE",
     "percentToQualify": "36",
@@ -38,17 +40,24 @@
             "percent": 100,
             "hz": 144
         },
-          {
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
         },
-       {
+        {
             "user": "Murel",
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

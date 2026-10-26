@@ -2,13 +2,15 @@
     "id": 137881484,
     "name": "Baby Ice Cream",
     "author": "JacobAppleOnYt",
-    "creators": ["JacobAppleOnYt"],
+    "creators": [
+        "JacobAppleOnYt"
+    ],
     "verifier": "JacobAppleOnYt",
     "verification": "https://youtu.be/2My7_JfOB3s",
     "percentToQualify": "29",
     "password": "Free To Copy",
     "records": [
-         {
+        {
             "user": "HelloItsMee",
             "link": "https://www.youtube.com/watch?v=i3oBNLgrdRY",
             "percent": 100,
@@ -26,30 +28,30 @@
             "percent": 100,
             "hz": 360
         },
-          {
+        {
             "user": "Vanity485_",
             "link": "",
             "percent": 100,
             "hz": 144
-          },
-          {
+        },
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "4point5",
             "link": "https://sqllstream.base44.app/watch/6a8a20e5fc41ca4680b861f9",
             "percent": 100,
             "hz": 144
-          },
-          {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://www.youtube.com/watch?v=PHkQJ3f1bfw",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "Veinticomma",
             "link": "",
@@ -68,11 +70,25 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          }
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/vNxGYZlF0a0",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-25"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }

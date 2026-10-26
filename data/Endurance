@@ -2,19 +2,21 @@
     "id": 136476530,
     "name": "Endurance",
     "author": "TigerDashYT",
-    "creators": ["TigerDashYT"],
+    "creators": [
+        "TigerDashYT"
+    ],
     "verifier": "TigerDashYT",
     "verification": "https://www.youtube.com/watch?v=ik7QCbqq0Q4",
     "percentToQualify": "66",
     "password": "Free To Copy",
     "records": [
-      {
+        {
             "user": "4point5",
             "link": "https://www.youtube.com/watch?v=ik7QCbqq0Q4",
             "percent": 100,
             "hz": 144
         },
-      {
+        {
             "user": "DaReal",
             "link": "https://youtu.be/qyhbXP10Aws?is=j2jt0M_2dVlvvb0W",
             "percent": 100,
@@ -32,18 +34,18 @@
             "percent": 100,
             "hz": 144
         },
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://youtu.be/EZvuWF2tnjQ?si=c-jwU4wa5gRYe0L5",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "icg",
             "link": "https://www.youtube.com/watch?v=2962Z93Npbw",
@@ -51,13 +53,13 @@
             "hz": 144
         },
         {
-           "user": "Murel",
+            "user": "Murel",
             "link": "",
             "percent": 100,
             "hz": 60
         },
         {
-           "user": "Veinticomma",
+            "user": "Veinticomma",
             "link": "",
             "percent": 100,
             "hz": 60
@@ -68,11 +70,25 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          }
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/vNxGYZlF0a0",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-25"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }

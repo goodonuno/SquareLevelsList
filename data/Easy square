@@ -2,7 +2,9 @@
     "id": 149457075,
     "name": "Easy square",
     "author": "Murel",
-    "creators": ["Murel"],
+    "creators": [
+        "Murel"
+    ],
     "verifier": "Murel",
     "verification": "https://youtu.be/bF6WT1-AzDs",
     "percentToQualify": "100",
@@ -37,6 +39,28 @@
             "link": "",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "LuigiPres1",
+            "link": "https://youtu.be/EZvuWF2tnjQ?si=J1e3nsgIcGMyJccB",
+            "percent": 100,
+            "hz": 60,
+            "mobile": true,
+            "date": "2026-08-26"
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/to5O8AjReQU",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-24"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

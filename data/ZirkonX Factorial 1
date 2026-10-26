@@ -2,7 +2,9 @@
     "id": 137859092,
     "name": "ZirkonX Factorial 1",
     "author": "TesseractYT",
-    "creators": ["TesseractYT"],
+    "creators": [
+        "TesseractYT"
+    ],
     "verifier": "TesseractYT",
     "verification": "https://www.youtube.com/watch?v=jwKqF42LijY",
     "percentToQualify": "66",
@@ -26,12 +28,12 @@
             "percent": 100,
             "hz": 144
         },
-            {
-                "user": "Vanity485_",
-                "link": "https://www.youtube.com/watch?v=0hLwLWdnIZc&t=347s",
-                "percent": 100,
-                "hz": 144
-            },
+        {
+            "user": "Vanity485_",
+            "link": "https://www.youtube.com/watch?v=0hLwLWdnIZc&t=347s",
+            "percent": 100,
+            "hz": 144
+        },
         {
             "user": "HelloItsMee",
             "link": "https://www.youtube.com/watch?v=u2JBozBT8yo&t=145s",
@@ -50,24 +52,24 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "zed",
             "link": "",
             "percent": 100,
             "hz": 120
-          },
-          {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://youtu.be/EZvuWF2tnjQ?si=c-jwU4wa5gRYe0L5",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "GroupNil",
             "link": "https://sqllstream.base44.app/watch/6a95c40269c646cec391cc64",
@@ -97,6 +99,20 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/NSCSJF5S4kw",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-24"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

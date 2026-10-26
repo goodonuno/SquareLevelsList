@@ -2,7 +2,9 @@
     "id": 134967117,
     "name": "THE FATHERLAND",
     "author": "Peanutsz",
-    "creators": ["Peanutsz"],
+    "creators": [
+        "Peanutsz"
+    ],
     "verifier": "Peanutsz",
     "verification": "https://www.youtube.com/watch?v=lYZlVlXJN2k",
     "percentToQualify": "70",
@@ -14,12 +16,12 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "4point5",
             "link": "https://sqllstream.base44.app/watch/6a8a20e5fc41ca4680b861f9",
             "percent": 100,
             "hz": 144
-          },
+        },
         {
             "user": "LuigiPres1",
             "link": "https://www.youtube.com/watch?v=xTSHNHlbRsg",
@@ -38,11 +40,18 @@
             "percent": 100,
             "hz": 60
         },
-            {
-                "user": "Arczenn",
-                "link": "",
-                "percent": 100,
-                "hz": 60
-            }
+        {
+            "user": "Arczenn",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }

@@ -2,7 +2,9 @@
     "id": 138811993,
     "name": "Pilarous",
     "author": "Murel",
-    "creators": ["Murel"],
+    "creators": [
+        "Murel"
+    ],
     "verifier": "Murel",
     "verification": "https://youtu.be/XR7qisiu0lA",
     "percentToQualify": "58",
@@ -14,29 +16,36 @@
             "percent": 100,
             "hz": 144
         },
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-        { 
+        },
+        {
             "user": "Hydrogen",
             "link": "https://youtu.be/hoRMUerMuU4",
             "percent": 100,
             "hz": 240
-          },
-            {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://www.youtube.com/watch?v=bFnIutpVjPU",
             "percent": 100,
             "hz": 60
-            },
+        },
         {
             "user": "Vanity485_",
             "link": "",
             "percent": 100,
             "hz": 144
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

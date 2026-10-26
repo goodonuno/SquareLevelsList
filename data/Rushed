@@ -2,13 +2,15 @@
     "id": 137091407,
     "name": "Rushed",
     "author": "Veinticomma",
-    "creators": ["Veinticomma"],
+    "creators": [
+        "Veinticomma"
+    ],
     "verifier": "Veinticomma",
     "verification": "hhttps://www.youtube.com/watch?v=uvLd9doA4T0",
     "percentToQualify": 32,
     "password": "Free To Copy",
     "records": [
-       {
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
@@ -44,18 +46,18 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://www.youtube.com/watch?v=A2E6gOQcLr8",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "icg",
             "link": "https://www.youtube.com/watch?v=2962Z93Npbw",
@@ -67,6 +69,20 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/vNxGYZlF0a0",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-25"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

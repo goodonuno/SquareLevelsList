@@ -2,24 +2,26 @@
     "id": 146017373,
     "name": "Stream",
     "author": "JacobAppleOnYT",
-    "creators": ["JacobAppleOnYT"],
+    "creators": [
+        "JacobAppleOnYT"
+    ],
     "verifier": "JacobAppleOnYT",
     "verification": "https://www.youtube.com/watch?v=SP1IJ8r2q30",
     "percentToQualify": "60",
     "password": "Free To Copy",
     "records": [
-      {
+        {
             "user": "4point5",
             "link": "https://www.youtube.com/watch?v=SP1IJ8r2q30",
             "percent": 100,
             "hz": 144
         },
-            {
-                "user": "Vanity485_",
-                "link": "https://www.youtube.com/watch?v=Jvaht74OiEY",
-                "percent": 100,
-                "hz": 144
-            },
+        {
+            "user": "Vanity485_",
+            "link": "https://www.youtube.com/watch?v=Jvaht74OiEY",
+            "percent": 100,
+            "hz": 144
+        },
         {
             "user": "HelloItsMee",
             "link": "https://www.youtube.com/watch?v=u2JBozBT8yo&t=246s",
@@ -32,36 +34,36 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "TesseractYT",
             "link": "https://sqllstream.base44.app/watch/6a8a009e4077339d6c550a4b",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "zed",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://youtu.be/EZvuWF2tnjQ?si=c-jwU4wa5gRYe0L5",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "icg",
             "link": "https://www.youtube.com/watch?v=2962Z93Npbw",
@@ -85,6 +87,27 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "XBFDIOfficial",
+            "link": "https://youtu.be/zlXd9zO17wo?si=lHDu1vjKVhKMwbFf",
+            "percent": 100,
+            "hz": 60,
+            "date": "2026-09-28"
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/VRdkO4cZxEI",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-23"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

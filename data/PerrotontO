@@ -2,7 +2,9 @@
     "id": 136175557,
     "name": "PerrotontO",
     "author": "TesseractYT",
-    "creators": ["TesseractYT"],
+    "creators": [
+        "TesseractYT"
+    ],
     "verifier": "TesseractYT",
     "verification": "https://www.youtube.com/watch?v=AAUTczTtfdg",
     "percentToQualify": 100,
@@ -32,24 +34,24 @@
             "percent": 100,
             "hz": 144
         },
-            {
-                "user": "Arczenn",
-                "link": "",
-                "percent": 100,
-                "hz": 60
-            },
-            {
-                "user": "Diamondflow",
-                "link": "https://www.youtube.com/watch?v=2nIuKdJB5v4&t=117s",
-                "percent": 100,
-                "hz": 360
-            },
-            {
-                "user": "Vanity485_",
-                "link": "https://www.youtube.com/watch?v=0hLwLWdnIZc&t=221s",
-                "percent": 100,
-                "hz": 144
-            },
+        {
+            "user": "Arczenn",
+            "link": "",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Diamondflow",
+            "link": "https://www.youtube.com/watch?v=2nIuKdJB5v4&t=117s",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Vanity485_",
+            "link": "https://www.youtube.com/watch?v=0hLwLWdnIZc&t=221s",
+            "percent": 100,
+            "hz": 144
+        },
         {
             "user": "arrowslasharrow",
             "link": "https://medal.tv/games/geometry-dash/clips/nlai0HvIzPyYPENzP?invite=cr-MSx3TDQsMzE0OTgwMDAw",
@@ -62,18 +64,18 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "zed",
             "link": "",
             "percent": 100,
             "hz": 120
-          },
-          {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://youtu.be/EZvuWF2tnjQ?si=c-jwU4wa5gRYe0L5",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "GroupNil",
             "link": "https://sqllstream.base44.app/watch/6a95c40269c646cec391cc64",
@@ -86,12 +88,12 @@
             "percent": 100,
             "hz": 144
         },
-          {
+        {
             "user": "tororosso8931",
             "link": "",
             "percent": 100,
             "hz": 120
-          },
+        },
         {
             "user": "DaReal",
             "link": "https://youtu.be/FZyBufD708o?si=FFTzF5Y-DvJhPg8a",
@@ -103,6 +105,20 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/to5O8AjReQU",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-24"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

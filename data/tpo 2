@@ -2,11 +2,20 @@
     "id": 151028194,
     "name": "tpo 2",
     "author": "8BIT8BIT",
-    "creators": ["8BIT8BIT"],
+    "creators": [
+        "8BIT8BIT"
+    ],
     "verifier": "8BIT8BIT",
     "verification": "https://discord.com/channels/1479939738759729353/1479939739930071124/1562880298864353402",
     "percentToQualify": 25,
     "password": "Free to Copy",
     "records": [
+        {
+            "user": "Li Mao",
+            "link": "https://www.youtube.com/watch?v=ek-KXxk-W1w",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-27"
+        }
     ]
 }

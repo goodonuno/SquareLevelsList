@@ -2,13 +2,15 @@
     "id": 139058235,
     "name": "medium time",
     "author": "TesseractYT",
-    "creators": ["TesseractYT"],
+    "creators": [
+        "TesseractYT"
+    ],
     "verifier": "TesseractYT",
     "verification": "https://www.youtube.com/watch?v=xXHshs4h3pM",
     "percentToQualify": "82",
     "password": "Free To Copy",
     "records": [
-      {
+        {
             "user": "4point5",
             "link": "https://www.youtube.com/watch?v=xXHshs4h3pM",
             "percent": 100,
@@ -38,24 +40,24 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-          {
+        },
+        {
             "user": "Veinticomma",
             "link": "",
             "percent": 100,
             "hz": 240
-          },
-            {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://www.youtube.com/watch?v=hF7iVnvcYC4",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "icg",
             "link": "https://www.youtube.com/watch?v=2962Z93Npbw",
@@ -68,11 +70,25 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          }
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/vNxGYZlF0a0",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-25"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }

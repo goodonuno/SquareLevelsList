@@ -2,7 +2,9 @@
     "id": 147262436,
     "name": "ceheeze",
     "author": "GroupNil",
-    "creators": ["GroupNil"],
+    "creators": [
+        "GroupNil"
+    ],
     "verifier": "GroupNil",
     "verification": "https://sqllstream.base44.app/watch/6a84b0f099d42b95405e81d4",
     "percentToQualify": "60",
@@ -20,30 +22,30 @@
             "percent": 100,
             "hz": 144
         },
-          {
+        {
             "user": "Arczenn",
             "link": "",
             "percent": 100,
             "hz": 60
-          },         
-         {
+        },
+        {
             "user": "Veinticomma",
             "link": "",
             "percent": 100,
             "hz": 240
-          },
-         {
+        },
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          },
-         {
+        },
+        {
             "user": "LuigiPres1",
             "link": "https://www.youtube.com/watch?v=hF7iVnvcYC4",
             "percent": 100,
             "hz": 60
-          },
+        },
         {
             "user": "icg",
             "link": "https://www.youtube.com/watch?v=2962Z93Npbw",
@@ -56,7 +58,7 @@
             "percent": 100,
             "hz": 144
         },
-       {
+        {
             "user": "Murel",
             "link": "",
             "percent": 100,
@@ -67,6 +69,20 @@
             "link": "https://youtu.be/ZF5DFc-0CeY",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "GroupNil",
+            "link": "https://sqllstream.base44.app/watch/6a84b0f099d42b95405e81d4",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-08-19"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
         }
     ]
 }

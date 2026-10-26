@@ -2,7 +2,9 @@
     "id": 148938721,
     "name": "Ggs Vanity",
     "author": "Murel",
-    "creators": ["Murel"],
+    "creators": [
+        "Murel"
+    ],
     "verifier": "Murel",
     "verification": "https://www.youtube.com/watch?v=OxzpNntNtIo",
     "percentToQualify": "55",
@@ -38,11 +40,25 @@
             "percent": 100,
             "hz": 60
         },
-          {
+        {
             "user": "ignacus",
             "link": "",
             "percent": 100,
             "hz": 60
-          }
+        },
+        {
+            "user": "FireeeX42",
+            "link": "https://youtu.be/vNxGYZlF0a0",
+            "percent": 100,
+            "hz": 144,
+            "date": "2026-10-25"
+        },
+        {
+            "user": "Li Mao",
+            "link": "https://youtu.be/XqBWBtgyIU0",
+            "percent": 100,
+            "hz": 180,
+            "date": "2026-10-26"
+        }
     ]
 }
