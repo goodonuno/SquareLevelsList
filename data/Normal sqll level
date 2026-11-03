@@ -37,6 +37,13 @@
             "link": "",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Skore",
+            "link": "https://youtu.be/SNifJTY1j2o?si=zOK1Q2S0AKAg-Gxx",
+            "percent": 100,
+            "hz": 240,
+            "date": "2026-11-01"
         }
     ]
 }
