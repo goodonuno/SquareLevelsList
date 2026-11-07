@@ -3,11 +3,17 @@
     "name": "The Test of Time",
     "author": "Vanity485_",
     "creators": ["Vanity485_"],
-    "verifier": "4point5",
-    "verification": "https://youtu.be/q3lQ5XoiEyY",
+    "verifier": "Vanity485_",
+    "verification": "www.youtube.com/watch?v=THGubcB3TuQ",
     "percentToQualify": "57",
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "4point5",
+            "link": "www.youtube.com/watch?v=q3lQ5XoiEyY",
+            "percent": 100,
+            "hz": 144
+        },
         {
             "user": "TwoCandy09",
             "link": "https://www.youtube.com/watch?v=ztGnWq0E-Q4",
