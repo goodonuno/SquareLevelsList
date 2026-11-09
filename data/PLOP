@@ -77,5 +77,11 @@
             "hz": 180,
             "date": "2026-10-26"
         }
+        {
+            "user": "Diamondflow",
+            "link": "",
+            "percent": 100,
+            "hz": 360
+        },
     ]
 }
