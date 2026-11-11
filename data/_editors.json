@@ -4,6 +4,11 @@
         "name": "Veinticomma",
         "link": "https://www.youtube.com/channel/UCkbmueLgGIZSxDC_dTiPClg"
     },
+     {
+        "role": "owner",
+        "name": "Skore",
+        "link": "https://www.youtube.com/channel/UCsl2X7XS4BheQ7KZwKzzU4w"
+    },
     {
         "role": "admin",
         "name": "vinyl",
@@ -17,6 +22,11 @@
      {
         "role": "admin",
         "name": "LuigiPres1",
+        "link": "https://www.youtube.com/channel/UCsl2X7XS4BheQ7KZwKzzU4w"
+    },
+     {
+        "role": "admin",
+        "name": "Vanity485_",
         "link": "https://www.youtube.com/channel/UCsl2X7XS4BheQ7KZwKzzU4w"
     }
 ]
