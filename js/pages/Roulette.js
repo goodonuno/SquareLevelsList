@@ -1,5 +1,13 @@
 import { fetchList } from '../content.js';
-import { getThumbnailFromId, getYoutubeIdFromUrl, shuffle } from '../util.js';
+import {
+    getThumbnailFromId,
+    getYoutubeIdFromUrl,
+    localize,
+    setMeta,
+    shuffle,
+} from '../util.js';
+import { score, round } from '../score.js';
+import { MAIN_LIST_SIZE, LIST_SIZE } from '../constants.js';
 
 import Spinner from '../components/Spinner.js';
 import Btn from '../components/Btn.js';
@@ -29,6 +37,12 @@ export default {
                 <p class="type-label-md" style="color: #aaa">
                     The roulette saves automatically.
                 </p>
+                <div class="points" v-if="progression.length > 0">
+                    <p class="type-label-lg">Points: {{ localize(points) }}</p>
+                    <p class="type-label-md" style="color: #aaa" v-if="bestRun">
+                        Best run: {{ localize(bestRun.points) }} points across {{ bestRun.levels }} levels
+                    </p>
+                </div>
                 <form class="save">
                     <p>Manual Load/Save</p>
                     <div class="btns">
@@ -70,6 +84,7 @@ export default {
                         <!-- Results -->
                         <div v-if="givenUp || hasCompleted" class="results">
                             <h1>Results</h1>
+                            <p>Total points: {{ localize(points) }}</p>
                             <p>Number of levels: {{ progression.length }}</p>
                             <p>Highest percent: {{ currentPercentage }}%</p>
                             <Btn v-if="currentPercentage < 99 && !hasCompleted" @click.native.prevent="showRemaining = true">Show remaining levels</Btn>
@@ -110,14 +125,29 @@ export default {
         useExtendedList: true,
         toasts: [],
         fileInput: undefined,
+        bestRun: null,
     }),
     mounted() {
+        setMeta({
+            title: 'Roulette',
+            description:
+                'Roll a random route from the Square Levels List, track your points and best run.',
+            url: '#/roulette',
+        });
+
         // Create File Input
         this.fileInput = document.createElement('input');
         this.fileInput.type = 'file';
         this.fileInput.multiple = false;
         this.fileInput.accept = '.json';
         this.fileInput.addEventListener('change', this.onImportUpload);
+
+        // Load best run from local storage
+        try {
+            this.bestRun = JSON.parse(localStorage.getItem('roulette-best'));
+        } catch {
+            this.bestRun = null;
+        }
 
         // Load progress from local storage
         const roulette = JSON.parse(localStorage.getItem('roulette'));
@@ -130,6 +160,21 @@ export default {
         this.progression = roulette.progression;
     },
     computed: {
+        points() {
+            const total = this.levels
+                .slice(0, this.progression.length)
+                .reduce(
+                    (sum, level, i) =>
+                        sum +
+                        score(
+                            level.rank,
+                            this.progression[i],
+                            level.minPercent ?? 60,
+                        ),
+                    0,
+                );
+            return round(total);
+        },
         currentLevel() {
             return this.levels[this.progression.length];
         },
@@ -157,6 +202,7 @@ export default {
         shuffle,
         getThumbnailFromId,
         getYoutubeIdFromUrl,
+        localize,
         async onStart() {
             if (this.isActive) {
                 this.showToast('Give up before starting a new roulette.');
@@ -184,11 +230,15 @@ export default {
                 id: lvl.id,
                 name: lvl.name,
                 video: lvl.verification,
+                minPercent: Number.isFinite(Number(lvl.percentToQualify))
+                    ? Number(lvl.percentToQualify)
+                    : 60,
             }));
             const list = [];
-            if (this.useMainList) list.push(...fullListMapped.slice(0, 75));
+            if (this.useMainList)
+                list.push(...fullListMapped.slice(0, MAIN_LIST_SIZE));
             if (this.useExtendedList) {
-                list.push(...fullListMapped.slice(75, 150));
+                list.push(...fullListMapped.slice(MAIN_LIST_SIZE, LIST_SIZE));
             }
 
             // random 100 levels
@@ -226,12 +276,28 @@ export default {
             this.percentage = undefined;
 
             this.save();
+
+            if (this.hasCompleted) {
+                this.saveBestRun();
+            }
         },
         onGiveUp() {
+            this.saveBestRun();
             this.givenUp = true;
 
             // Save progress
             localStorage.removeItem('roulette');
+        },
+        saveBestRun() {
+            const run = {
+                points: this.points,
+                levels: this.progression.length,
+            };
+
+            if (!this.bestRun || run.points > this.bestRun.points) {
+                this.bestRun = run;
+                localStorage.setItem('roulette-best', JSON.stringify(run));
+            }
         },
         onImport() {
             if (

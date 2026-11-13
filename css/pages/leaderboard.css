@@ -29,6 +29,7 @@
 }
 .page-leaderboard .board-container {
     padding-inline: 1rem;
+    padding-block: 0 2rem;
 }
 .page-leaderboard .board {
     table-layout: auto;
@@ -55,6 +56,10 @@
     text-align: start;
     word-break: normal;
     overflow-wrap: anywhere;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
 }
 .page-leaderboard .board .user button:hover {
     background-color: var(--color-background-hover);
@@ -87,7 +92,87 @@
 }
 .page-leaderboard .player .table .level {
     width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
 }
 .page-leaderboard .player .table a:hover {
+    text-decoration: underline;
+}
+
+.page-leaderboard .board-container .board-search {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background-color: var(--color-background);
+    padding-block: 1rem 1rem;
+    display: flex;
+}
+.page-leaderboard .board-container .board-search input[type="text"] {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background);
+    width: 100%;
+}
+.page-leaderboard .board-container .board-search input[type="text"]:focus {
+    outline: 2px solid var(--color-primary);
+}
+.page-leaderboard .board-container .board-sort {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding-bottom: 0.75rem;
+}
+.page-leaderboard .board-container .board-sort .sort-btn {
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background);
+}
+.page-leaderboard .board-container .board-sort .sort-btn:hover,
+.page-leaderboard .board-container .board-sort .sort-btn.active {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+.page-leaderboard .badge {
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background);
+}
+.page-leaderboard .board .user.active .badge {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+}
+.page-leaderboard .board .no-results {
+    padding: 1rem;
+    text-align: center;
+    opacity: 0.5;
+}
+.page-leaderboard .player .table .level .badge.record-video {
+    padding-block: 0.125rem;
+    text-decoration: none;
+}
+.page-leaderboard .player .table .level .badge.record-video:hover {
+    text-decoration: none;
+}
+.page-leaderboard .player .table .level .badge.record-video:hover {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+    text-decoration: none;
+}
+.page-leaderboard .player .player-toc {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    opacity: 0.65;
+}
+.page-leaderboard .player .player-toc a:hover {
     text-decoration: underline;
 }

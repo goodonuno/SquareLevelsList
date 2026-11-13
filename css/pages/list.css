@@ -4,7 +4,9 @@
     padding-block: 2rem;
 }
 .page-list .list-container {
+    padding-block: 0 2rem;
     padding-inline: 1rem;
+    scroll-padding-top: 5.5rem;
 }
 .page-list .meta-container {
     padding-right: 2rem;
@@ -57,6 +59,12 @@
     grid-auto-rows: max-content;
     gap: 1rem;
 }
+.page-list .level-container .level .level-authors a {
+    text-decoration: none;
+}
+.page-list .level-container .level .level-authors a:hover {
+    text-decoration: underline;
+}
 .page-list .level-container .level .video {
     aspect-ratio: 16/9;
 }
@@ -85,6 +93,10 @@
 }
 .page-list .level-container .level .records .user {
     width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
 }
 .page-list .level-container .level .records .percent,
 .page-list .level-container .level .records .hz {
@@ -126,3 +138,91 @@
 .page-list .meta .editors li a:hover {
     text-decoration: underline;
 }
+
+.page-list .list-container .list-controls {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background-color: var(--color-background);
+    padding-block: 1rem 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    align-items: flex-start;
+}
+.page-list .list-container .list-controls input[type="text"] {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background);
+}
+.page-list .list-container .list-controls input[type="text"]:focus {
+    outline: 2px solid var(--color-primary);
+}
+.page-list .list-container .list-controls .search {
+    flex: 1;
+}
+.page-list .list-container .jump-error {
+    padding-bottom: 1rem;
+    color: var(--color-error);
+}
+
+.page-list .list .level .badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+.page-list .list .level .badge,
+.page-list .level-container .level .records .badge {
+    display: inline-block;
+    padding: 0.125rem 0.5rem;
+    border-radius: 999px;
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background);
+}
+.page-list .list .level.active .badge {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+}
+.page-list .list .no-results,
+.page-list .level-container .level .records .no-results {
+    padding: 1rem;
+    text-align: center;
+    color: var(--color-background-hover);
+}
+.page-list .level-container .level .records .no-results {
+    color: var(--color-on-background);
+    opacity: 0.5;
+}
+
+.page-list .level-container .level .stat-value {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.page-list .level-container .level .copy-btn {
+    border: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    background-color: var(--color-background-hover);
+    color: var(--color-on-background);
+}
+.page-list .level-container .level .copy-btn:hover {
+    background-color: var(--color-primary);
+    color: var(--color-on-primary);
+}
+
+.page-list .level-container .level .records .records-badges {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+.page-list .level-container .level .records .badge.first-victor {
+    color: var(--color-on-primary);
+    background-color: var(--color-primary);
+}
+

@@ -30,6 +30,12 @@
     gap: 1rem;
 }
 
+.page-roulette .sidebar .points {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 .page-roulette .levels-container {
     grid-row: 1;
     grid-column: 2 / span 2;

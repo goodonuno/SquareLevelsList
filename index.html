@@ -3,10 +3,23 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=1024" />
-        <title>Square Levels List</title>
+        <title>Square Levels List (SQLL)</title>
+
+        <!-- Default social preview; per-level and per-player pages update these at runtime -->
+        <meta
+            name="description"
+            content="The Square Levels List (SQLL) leaderboards"
+        />
+        <meta property="og:site_name" content="Square Levels List (SQLL)" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Square Levels List (SQLL)" />
+        <meta
+            property="og:description"
+            content="The Square Levels List (SQLL) leaderboards"
+        />
 
         <!-- Replace your server icon by uploading an image file named "list_icon.png"-->
-        <link rel="icon" href="/2140_sin_titulo_20260527180307.jpg" />
+        <link rel="icon" href="/list_icon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -38,7 +51,7 @@
         <header :class="{ dark: store.dark }">
             <div class="logo">
                 <h2>Square Levels List</h2>
-                <p>v1.0.0</p>
+                <p>v1.1.0</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">

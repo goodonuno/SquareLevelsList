@@ -43,6 +43,7 @@
 .nav .nav__actions .nav__cta {
     margin-left: 1rem;
     padding: 1rem;
+    white-space: nowrap;
     background-color: var(--color-on-primary);
     color: var(--color-primary);
     border-radius: 0.5rem;
@@ -51,4 +52,13 @@
 }
 .nav .nav__actions .nav__cta:hover:not(:active) {
     transform: translateY(-2px);
+}
+
+@media screen and (max-width: 1365px) {
+    .nav {
+        column-gap: 1rem;
+    }
+    .nav .nav__tab {
+        padding-inline: 0.25rem;
+    }
 }

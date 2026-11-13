@@ -1,7 +1,13 @@
 import { store } from "../main.js";
-import { embed } from "../util.js";
+import {
+    consumeInAppNavigation,
+    embed,
+    markInAppNavigation,
+    setMeta,
+} from "../util.js";
 import { score } from "../score.js";
-import { fetchEditors, fetchList } from "../content.js";
+import { fetchEditors, fetchList, firstVictorOf } from "../content.js";
+import { MAIN_LIST_SIZE, LIST_SIZE } from "../constants.js";
 
 import Spinner from "../components/Spinner.js";
 import LevelAuthors from "../components/List/LevelAuthors.js";
@@ -22,17 +28,33 @@ export default {
         </main>
         <main v-else class="page-list">
             <div class="list-container">
-                <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+                <form class="list-controls" @submit.prevent>
+                    <input
+                        class="search"
+                        type="text"
+                        v-model="query"
+                        placeholder="Search"
+                        @keydown.enter="onSearch"
+                    />
+                </form>
+                <p class="jump-error type-label-md" v-if="jumpError">{{ jumpError }}</p>
+                <table class="list">
+                    <tr v-for="entry in rows" :key="entry.i">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="entry.rank <= listSize" class="type-label-lg">#{{ entry.rank }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': !level }">
-                            <button @click="selected = i">
-                                <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
+                        <td class="level" :class="{ 'active': selected === entry.i, 'error': !entry.level }">
+                            <button @mousedown.prevent @click="select(entry.i)">
+                                <span class="type-label-lg">{{ entry.level?.name || \`Error (\${entry.err}.json)\` }}</span>
+                                <span class="badges" v-if="entry.level">
+                                    <span class="badge type-label-sm">{{ entry.level.records?.length || 0 }} records</span>
+                                </span>
                             </button>
                         </td>
+                    </tr>
+                    <tr v-if="rows.length === 0">
+                        <td class="no-results type-label-lg" colspan="2">No levels match your search.</td>
                     </tr>
                 </table>
             </div>
@@ -48,7 +70,12 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
-                            <p>{{ level.id }}</p>
+                            <p class="stat-value">
+                                <span>{{ level.id }}</span>
+                                <button type="button" class="copy-btn type-label-sm" @click="copyId">
+                                    {{ copied ? 'Copied!' : 'Copy' }}
+                                </button>
+                            </p>
                         </li>
                         <li>
                             <div class="type-title-sm">Password</div>
@@ -56,16 +83,19 @@ export default {
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
+                    <p v-if="selected + 1 <= mainListSize"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
+                    <p v-else-if="selected + 1 <= listSize"><strong>100%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
-                        <tr v-for="record in level.records" class="record">
+                        <tr v-for="(record, i) in level.records" :key="i" class="record">
                             <td class="percent">
                                 <p>{{ record.percent }}%</p>
                             </td>
                             <td class="user">
-                                <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                                <a :href="playerHref(record.user)" class="type-label-lg">{{ record.user }}</a>
+                                <span class="records-badges" v-if="i === firstVictorIndex">
+                                    <span class="badge type-label-sm first-victor">First Victor</span>
+                                </span>
                             </td>
                             <td class="mobile">
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
@@ -73,6 +103,9 @@ export default {
                             <td class="hz">
                                 <p>{{ record.hz }}Hz</p>
                             </td>
+                        </tr>
+                        <tr v-if="level.records.length === 0">
+                            <td colspan="4" class="no-results type-label-lg">No records match the current filters.</td>
                         </tr>
                     </table>
                 </div>
@@ -133,12 +166,45 @@ export default {
         loading: true,
         selected: 0,
         errors: [],
+        query: '',
+        jumpError: '',
+        copied: false,
+        mainListSize: MAIN_LIST_SIZE,
+        listSize: LIST_SIZE,
         roleIconMap,
         store
     }),
+    watch: {
+        $route: {
+            immediate: true,
+            handler: 'syncFromRoute',
+        },
+        selected() {
+            this.updateMeta();
+        },
+    },
     computed: {
+        rows() {
+            const q = this.query.trim().toLowerCase();
+            return this.list
+                .map(([level, err], i) => ({ level, err, i, rank: i + 1 }))
+                .filter(({ level }) => {
+                    if (!q) return true;
+                    if (!level) return false;
+                    const haystack = [
+                        level.name,
+                        level.author,
+                        level.verifier,
+                        level.path,
+                        ...(level.creators || []),
+                    ]
+                        .join(' ')
+                        .toLowerCase();
+                    return haystack.includes(q);
+                });
+        },
         level() {
-            return this.list[this.selected][0];
+            return this.list[this.selected]?.[0] || null;
         },
         video() {
             if (!this.level.showcase) {
@@ -151,14 +217,19 @@ export default {
                     : this.level.verification
             );
         },
+        firstVictorIndex() {
+            return (this.level?.records || []).findIndex(
+                (record) => record.percent === 100,
+            );
+        },
     },
     async mounted() {
         // Hide loading spinner
-        this.list = await fetchList();
+        this.list = (await fetchList()) || [];
         this.editors = await fetchEditors();
 
         // Error handling
-        if (!this.list) {
+        if (!this.list.length) {
             this.errors = [
                 "Failed to load list. Retry in a few minutes or notify list staff.",
             ];
@@ -175,10 +246,134 @@ export default {
             }
         }
 
+        // Select the level from the URL if we deep linked onto a level
+        this.syncFromRoute();
+
         this.loading = false;
+        this.updateMeta();
     },
     methods: {
         embed,
         score,
+        syncFromRoute() {
+            if (this.$route.params.level === undefined) {
+                this.updateMeta();
+                return;
+            }
+
+            const param = String(this.$route.params.level);
+
+            // Either a level file name ("Coefficient") or a rank ("5" / "#5")
+            let i = this.list.findIndex(
+                ([level]) => level && level.path === param,
+            );
+            if (i < 0 && /^#?\d+$/.test(param)) {
+                const rank = parseInt(param.replace('#', ''), 10);
+                if (rank >= 1 && rank <= this.list.length) {
+                    i = rank - 1;
+                }
+            }
+
+            if (i >= 0) {
+                // Clicking a level inside the app just opens its info; only a
+                // URL (address bar / reload) scrolls the list to the level
+                const fromClick = consumeInAppNavigation(this.$route.path);
+
+                this.selected = i;
+                // A search filter would hide the deep linked level
+                this.query = '';
+                this.jumpError = '';
+
+                if (!fromClick) {
+                    this.$nextTick(() => this.scrollToSelected());
+                }
+            }
+
+            this.updateMeta();
+        },
+        select(i, scroll = false) {
+            const [level] = this.list[i] || [];
+            if (!level) {
+                return;
+            }
+
+            this.selected = i;
+            const path = '/level/' + encodeURIComponent(level.path);
+            if (this.$route.path !== path) {
+                markInAppNavigation(path);
+                this.$router.push(path).catch(() => {});
+            }
+
+            this.$nextTick(() => {
+                if (scroll) {
+                    this.scrollToSelected();
+                }
+            });
+        },
+        scrollToSelected() {
+            document
+                .querySelector('.page-list .list .level.active')
+                ?.scrollIntoView({ block: 'start' });
+        },
+        onSearch() {
+            const q = this.query.trim();
+
+            // "#42" or "42" on Enter jumps straight to that rank
+            const jumpMatch = q.match(/^#?\d+$/);
+            if (jumpMatch) {
+                const n = parseInt(q.replace('#', ''), 10);
+                if (isNaN(n) || n < 1 || n > this.list.length) {
+                    this.jumpError = `No level at #${n}. This list has ${this.list.length} levels.`;
+                    return;
+                }
+
+                this.jumpError = '';
+                this.query = '';
+                this.select(n - 1, true);
+            }
+        },
+        copyId() {
+            const id = String(this.level.id);
+
+            try {
+                navigator.clipboard.writeText(id);
+            } catch {
+                // Clipboard unavailable, nothing we can do
+            }
+
+            this.copied = true;
+            clearTimeout(this._copyTimer);
+            this._copyTimer = setTimeout(() => (this.copied = false), 1500);
+        },
+        playerHref(user) {
+            return '#/player/' + encodeURIComponent(user);
+        },
+        updateMeta() {
+            const level = this.level;
+            if (this.loading) {
+                return;
+            }
+
+            if (!level || this.$route.params.level === undefined) {
+                setMeta({
+                    title: 'List',
+                    description: `The Square Levels List — ${this.list.length} ranked Geometry Dash levels with records, creators and verifiers.`,
+                    url: '#/',
+                });
+                return;
+            }
+
+            const creators = [
+                ...new Set([...(level.creators || []), level.author].filter(Boolean)),
+            ].join(', ');
+            const first = firstVictorOf(level);
+
+            setMeta({
+                title: `#${this.selected + 1} ${level.name}`,
+                description: `${level.name} — rank #${this.selected + 1}${creators ? ` by ${creators}` : ''}${level.verifier ? `, verified by ${level.verifier}` : ''}${first ? `, first victor ${first.user}` : ''}. ${(level.records || []).length} records on the Square Levels List.`,
+                url: `#/level/${encodeURIComponent(level.path)}`,
+            });
+        },
+
     },
 };
