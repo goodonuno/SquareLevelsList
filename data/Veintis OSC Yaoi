@@ -1,6 +1,6 @@
 {
     "id": 145456217,
-    "name": "Veintis OSC Level",
+    "name": "Veintis OSC Yaoi",
     "author": "Vanity485_",
     "creators": ["Vanity485_"],
     "verifier": "Vanity485_",
@@ -25,6 +25,12 @@
             "link": "https://youtu.be/8U7B5M0svNc",
             "percent": 100,
             "hz": 144
-        }
+        },
+        {
+            "user": "Veinticomma",
+            "link": "",
+            "percent": 76,
+            "hz": 60
+       }
     ]
 }
