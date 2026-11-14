@@ -27,9 +27,15 @@
             "hz": 144
         },
         {
+            "user": "Skore",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        },
+        {
             "user": "Veinticomma",
             "link": "",
-            "percent": 76,
+            "percent": 100,
             "hz": 60
        }
     ]
