@@ -19,6 +19,12 @@
             "link": "https://youtu.be/wiILw6XBGlA",
             "percent": 100,
             "hz": 144
+          },
+        { 
+            "user": "ruby",
+            "link": "",
+            "percent": 100,
+            "hz": 60
           }
     ]
 }
